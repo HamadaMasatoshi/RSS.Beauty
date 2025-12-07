@@ -22,7 +22,7 @@
 
 访问 [RSS.Beauty](https://rss.beauty) 并输入任意 RSS 订阅源链接即可体验。
 
-或者访问 <https://rss.beauty/rss?url=https%3A%2F%2Fgithub.com%2Fccbikai%2FRSS.Beauty%2Freleases.atom>。
+或者访问 <https://rss.beauty/rss?url=https%3A%2F%2Fgithub.com%2Fmiantiao-me%2FRSS.Beauty%2Freleases.atom>。
 
 ## 技术栈
 
@@ -36,13 +36,13 @@
 
 ### Serverless
 
-支持部署到 Cloudflare Pages, Vercel, Netlify 等平台，[Fork](https://github.com/ccbikai/RSS.Beauty/fork) 此项目后按平台教程操作即可。
+支持部署到 Cloudflare Pages, Vercel, Netlify 等平台，[Fork](https://github.com/miantiao-me/RSS.Beauty/fork) 此项目后按平台教程操作即可。
 
 ### Docker
 
 ```bash
-docker pull ghcr.io/ccbikai/rss.beauty:main
-docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
+docker pull ghcr.io/miantiao-me/rss.beauty:main
+docker run -d --name rss-beauty -p 4321:4321 ghcr.io/miantiao-me/rss.beauty:main
 ```
 
 ## 致谢
@@ -52,4 +52,4 @@ docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
 ## 赞助
 
 1. [在 𝕏 上关注我](https://404.li/x)
-1. [在 GitHub 赞助我](https://github.com/sponsors/ccbikai)
+1. [在 GitHub 赞助我](https://github.com/sponsors/miantiao-me)

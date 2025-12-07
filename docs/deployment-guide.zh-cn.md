@@ -12,10 +12,10 @@ Docker 部署是最简单的方式，只需要两条命令即可完成：
 
 ```bash
 # 拉取镜像
-docker pull ghcr.io/ccbikai/rss.beauty:main
+docker pull ghcr.io/miantiao-me/rss.beauty:main
 
 # 运行容器
-docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
+docker run -d --name rss-beauty -p 4321:4321 ghcr.io/miantiao-me/rss.beauty:main
 ```
 
 部署完成后，访问 `http://localhost:4321` 即可看到网站。
@@ -45,7 +45,7 @@ pnpm --version
 
 ```bash
 # 克隆项目
-git clone https://github.com/ccbikai/RSS.Beauty.git
+git clone https://github.com/miantiao-me/RSS.Beauty.git
 
 # 进入项目目录
 cd RSS.Beauty

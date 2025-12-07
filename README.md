@@ -22,7 +22,7 @@ English | [简体中文](./README.zh-cn.md)
 
 Visit [RSS.Beauty](https://rss.beauty) and enter any RSS feed URL to try it out.
 
-Or visit <https://rss.beauty/rss?url=https%3A%2F%2Fgithub.com%2Fccbikai%2FRSS.Beauty%2Freleases.atom> to try it out.
+Or visit <https://rss.beauty/rss?url=https%3A%2F%2Fgithub.com%2Fmiantiao-me%2FRSS.Beauty%2Freleases.atom> to try it out.
 
 ## Tech Stack
 
@@ -36,13 +36,13 @@ Detailed deployment guide can be found in [Deployment Guide](./docs/deployment-g
 
 ### Serverless
 
-Support deployment to Cloudflare Pages, Vercel, Netlify, etc. After [Fork](https://github.com/ccbikai/RSS.Beauty/fork) this project, follow the platform tutorial to deploy.
+Support deployment to Cloudflare Pages, Vercel, Netlify, etc. After [Fork](https://github.com/miantiao-me/RSS.Beauty/fork) this project, follow the platform tutorial to deploy.
 
 ### Docker
 
 ```bash
-docker pull ghcr.io/ccbikai/rss.beauty:main
-docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
+docker pull ghcr.io/miantiao-me/rss.beauty:main
+docker run -d --name rss-beauty -p 4321:4321 ghcr.io/miantiao-me/rss.beauty:main
 ```
 
 ## Credits
@@ -52,4 +52,4 @@ docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
 ## Sponsor
 
 1. [Follow me on 𝕏](https://404.li/kai)
-1. [Sponsor me on GitHub](https://github.com/sponsors/ccbikai)
+1. [Sponsor me on GitHub](https://github.com/sponsors/miantiao-me)

@@ -12,10 +12,10 @@ Docker deployment is the simplest method, requiring just two commands:
 
 ```bash
 # Pull the image
-docker pull ghcr.io/ccbikai/rss.beauty:main
+docker pull ghcr.io/miantiao-me/rss.beauty:main
 
 # Run the container
-docker run -d --name rss-beauty -p 4321:4321 ghcr.io/ccbikai/rss.beauty:main
+docker run -d --name rss-beauty -p 4321:4321 ghcr.io/miantiao-me/rss.beauty:main
 ```
 
 Once deployed, access the site at `http://localhost:4321`.
@@ -45,7 +45,7 @@ If not installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ccbikai/RSS.Beauty.git
+git clone https://github.com/miantiao-me/RSS.Beauty.git
 
 # Navigate to project directory
 cd RSS.Beauty
