@@ -53,3 +53,7 @@ docker run -d --name rss-beauty -p 4321:4321 ghcr.io/miantiao-me/rss.beauty:main
 
 1. [在 𝕏 上关注我](https://404.li/x)
 1. [在 GitHub 赞助我](https://github.com/sponsors/miantiao-me)
+
+## 许可证
+
+本项目基于 [GNU Lesser General Public License v3.0](./LICENSE) 许可证发布。
